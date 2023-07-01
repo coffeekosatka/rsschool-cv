@@ -4,7 +4,7 @@
 ###### Offering a understanding of modern frontend technologies, along with a willingness to learn and adapt to new technologies.
 ###### Possessing excellent problem-solving abilities, an eye for detail, and a commitment to writing clean, efficient, and maintainable code.
 ## **PROFESSIONAL EXPERIENCE**
-* ### **KPMG**
+### **KPMG**
 #### **Financial Data Specialist/Team Leader**
 #### ***2017 – 2022***
 ###### Key responsibilities:
@@ -30,7 +30,30 @@
   * ###### Adaptability
   * ###### Time management
   * ###### Continuous learning
-  
+## **EDUCATION**
+* ###### **Belarussian State University**
+  ###### ***Master's Degree in Economics***
+  ###### Completed in 2017
+* ###### **The School of Business of BSU**
+  ###### ***Bachelor's Degree in Accounting and Financial Control***
+  ###### Completed in 2018
+* ###### **The Rolling Scopes School**
+  ###### ***Frontend Developer***
+  ###### Completed in 2024
+## **CONTACT**
+   ###### *viikkuullyy@gmail.com*
+   ###### *@hatake_kenpachi*
+   ###### Georgia, Borjomi
+
+## **LANGUAGES**
+* ###### **ENGLISH**
+  ###### ***B2***
+* ###### **RUSSIAN**
+  ###### ***Native***
+* ###### **JAPANESE**
+  ###### ***N5***
+
+
 
 
 
