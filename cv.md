@@ -41,9 +41,9 @@
   ###### ***Frontend Developer***
   ###### Completed in 2024
 ## **CONTACT**
-   ###### *viikkuullyy@gmail.com*
-   ###### *@hatake_kenpachi*
-   ###### Georgia, Borjomi
+###### *viikkuullyy@gmail.com*
+###### *@hatake_kenpachi*
+###### Georgia, Borjomi
 
 ## **LANGUAGES**
 * ###### **ENGLISH**
