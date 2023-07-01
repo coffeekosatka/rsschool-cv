@@ -14,6 +14,7 @@ Key responsibilities:
 * Leading teams of between 10 and 15 members.
 * Resource management: development coaching for junior employees and task distribution within junior staff.
 * Financial procedures checking.
+
 ## **TOP SKILLS**
 * ### **Hard Skills**
   * HTML
@@ -30,6 +31,7 @@ Key responsibilities:
   * Adaptability
   * Time management
   * Continuous learning
+
 ## **EDUCATION**
 * **Belarussian State University**
   ***Master's Degree in Economics***
@@ -40,6 +42,7 @@ Key responsibilities:
 * **The Rolling Scopes School**
   ***Frontend Developer***
   Completed in 2024
+
 ## **CONTACT**
 *viikkuullyy@gmail.com*
 *@hatake_kenpachi*
@@ -52,9 +55,3 @@ Georgia, Borjomi
   ***Native***
 * **JAPANESE**
   ***N5***
-
-
-
-
-
-
