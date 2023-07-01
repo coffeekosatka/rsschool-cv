@@ -1,1 +1,1 @@
-# rsschool-cv
+https://coffeekosatka.github.io/rsschool-cv/cv
