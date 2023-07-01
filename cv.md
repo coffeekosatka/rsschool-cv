@@ -41,7 +41,7 @@ Key responsibilities:
   Completed in 2018
 * **The Rolling Scopes School**
   ***Frontend Developer***
-  Completed in 2024
+Completed in 2024
 
 ## **CONTACT**
 *viikkuullyy@gmail.com*
