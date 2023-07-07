@@ -12,30 +12,77 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--Це подключение шрифтов гугл -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,500&family=Work+Sans:wght@300;500&display=swap" rel="stylesheet"> <!--Це подключение шрифтов гугл -->
 </head>
-<style>
- #back{
-    background-image: url("background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    width: 400px;
- }   
-</style>
 
-<body id="back">
+
+<body>
+    <div id="wrapper">
     
         <div class="two-columns">
             <div class="left-column"> 
 
 
-    <nav>
-        <img src="Foto.jpg" alt="My Foto" width="320" height="240">
+    <article>
+        <img src="img/Foto.jpg" alt="My Foto" width="301" height="357">
+    </article>
+    <nav class="left-nav">
+        EDUCATION
     </nav>
+    <section class="education">
+        <ul>
+            <li>
+            <p class="p_style_2">Belarussian State University</p>
+            <p class="p_style_3">Master's Degree in Economics</p>
+            <p class="p_style_4">Completed in 2018</p>
+            </li>
+            <li>
+            <p class="p_style_2">The School of Business of BSU</p>
+            <p class="p_style_3">Bachelor's Degree in Accounting and Financial Control</p>
+            <p class="p_style_4">Completed in 2019</p>
+            </li>
+            <li>
+            <p class="p_style_2">The Rolling Scopes School</p>
+            <p class="p_style_3">Frontend Developer</p>
+            <p class="p_style_4">Completed in 2024</p>
+            </li>
+        </ul> 
+</section>
+
+<nav class="left-nav">
+    CONTACT
+</nav>
+
+<section class="contacts">
+    <ul>
+        <li>viikkuullyy@gmail.com</li>
+        <li>@hatake_kenpachi</li>
+        <li>Georgia, Borjomi</li>
+    </ul>
+</section>
+
+<nav class="left-nav">
+    LANGUAGES
+</nav>
+
+<section class="languages">
+    <ul>
+        <li>ENGLISH</li>
+        <p class="contacts">B2</p>
+        <li>RUSSIAN</li>
+        <p class="contacts">Native</p>
+        <li>JAPANESE</li>
+        <p class="contacts">N5</p>
+        
+    </ul>
+
             </div>
 
+
+
+
+
+
             <div class="right-column"> 
-    <header>
+<header>
         <h1 class="h1_style">VIKTORIA GERASIMENKO</h1>
         <h2 class="h2_style">Frontend Developer</h2>
         <h3 class="p_style">Skilled and detail-oriented Frontend Developer with a
@@ -47,15 +94,17 @@
         <h3 class="p_style">Possessing excellent problem-solving abilities, an eye
             for detail, and a commitment to writing clean, efficient,
             and maintainable code.</h3>
-    </header>
+</header>
+
+<nav class="right-nav">
+    PROFESSIONAL EXPERIENCE
+</nav>
+
 <main>
-    <h4 class="h4_style">
-    <pre>KPMG
-Financial Data Specialist/
-Team Leader
-    </pre>
-    </h4>
-    <h5 class="h5_style">2017 – 2022</h5>
+    <p class="h4_style">KPMG</p>
+    <p class="h4_style">Financial Data Specialist/Team Leader
+    </p>
+    <p class="h5_style">2017 – 2022</p>
     <p class="p_style">
         Key responsibilities:
         <ul>
@@ -68,7 +117,15 @@ Team Leader
         </ul> 
     </p>
 </main>
-<article>
+
+
+<nav class="right-nav">
+    TOP SKILLS
+</nav>
+
+<section>
+    <div class="two-columns">
+    <div class="left-column2">
     <h4 class="h4_style">Hard Skills</h4>
         <p class="p_style">
             <ul>
@@ -81,8 +138,8 @@ Team Leader
                 <li class="p_style">CSS</li>
             </ul> 
         </p>
-</article>
-<article>
+    </div>
+    <div class="right-column2">
     <h4 class="h4_style">Soft Skills</h4>
         <p class="p_style">
             <ul>
@@ -94,26 +151,30 @@ Team Leader
                 <li class="p_style">Continuous learning</li>
             </ul> 
         </p>
-</article>
-<article>
-            <ul>
-                <li>
-                <p class="p_style_2">Belarussian State University</p>
-                <p class="p_style_3">Master's Degree in Economics</p>
-                <p class="p_style_4">Completed in 2018</p>
-                </li>
-                <li>
-                <p class="p_style_2">The School of Business of BSU</p>
-                <p class="p_style_3">Bachelor's Degree in Accounting and Financial Control</p>
-                <p class="p_style_4">Completed in 2019</p>
-                </li>
-                <li>
-                <p class="p_style_2">The Rolling Scopes School</p>
-                <p class="p_style_3">Frontend Developer</p>
-                <p class="p_style_4">Completed in 2024</p>
-                </li>
-            </ul> 
-</article>
+    </div>
+</div>
+
+
+</section>
+
+<nav class="right-nav">
+    CODE EXAMPLE
+</nav>
+<section class="code">
+    <pre>
+        public static int min(int[] ints) {
+            int min = ints[0];
+    
+            for(int i = 1; i < ints.length; ++i) {
+                min = Math.min(min, ints[i]);
+            }
+    
+            return min;
+        }    
+    </pre>
+</section>
+
+</div>
 </div>
 </div>    
 </body>

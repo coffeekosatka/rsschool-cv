@@ -1,63 +1,136 @@
 .h1_style{
     font: Bold 50px 'Open Sans', sans-serif;
-    color: black;
+    color:#191919;
+    margin-top: 0%;
 }
 .h2_style{
 
     font: Italic 45px 'Open Sans', sans-serif;
-    color: black;
+    color: #191919;
 
 }
 .h3_style{
 
     font: normal 25px 'Open Sans', sans-serif;
-    color: black;
+    color: #191919;
 
 }
 .h4_style{
 
-    font: bold 30px 'Open Sans', sans-serif;
-    color: black;
+    font: bold 30px/0.5 'Open Sans', sans-serif;
+    color: #191919;
 
 }
 .h5_style{
 
-    font: Italic 27px 'Open Sans', sans-serif;
-    color: black;
+    font: Italic 27px/1.0 'Open Sans', sans-serif;
+    color: #191919;
 
 }
 .p_style{
 
     font: bold 20px 'Open Sans', sans-serif;
-    color: black;
+    color: #191919;
 
 }
 .p_style_2{
 
     font: bold 20px 'Open Sans', sans-serif;
-    color: white;
+    color: #fffaef;
 
 }
 .p_style_3{
 
     font: italic bold 20px 'Open Sans', sans-serif;
-    color: white;
+    color: #fffaef;
 
 }
 .p_style_4{
 
     font: 20px 'Open Sans', sans-serif;
-    color: white;
+    color: #fffaef;
 
 }
-#back{
-    background-image: url("background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 400px;
-    width: 400px;
- } 
+
+ .two-columns {
+    display: flex;
+    margin: 1px;
+
+  }
+  .left-column {
+    width: 35%;
+    margin-left: 5%;
+    background-color: #323232;
+    
+
+
+
+  }
+  .right-column {
+    width: 65%;
+    margin-left: 5%;
+
+
+  }
+article{
+
+    margin-left: 4%;
+    align-content: center;
+}
+body{
+    margin: 1%;
+
+
+}
+.left-nav{
+    font: bold 43px 'Open Sans', sans-serif;
+    color: #191919;
+    background-color: #ebebeb;
+    text-align: center;
+
+}
+.contacts{
+    font: italic 20px 'Open Sans', sans-serif;
+    color: #fffaef;
+
+}
+.languages{
+    font: bold 20px 'Open Sans', sans-serif;
+    color: #fffaef;
+}
+.education{
+    font: bold 20px 'Open Sans', sans-serif;
+    color: #fffaef;
+}
+.right-nav{
+    font: bold 43px 'Open Sans', sans-serif;
+    color: #ebebeb;
+    background-color: #191919;
+    text-align: center;
+
+}
+.left-column2{
+    width: 50%;
+    margin-left: 10%;
+    
+
+}
+.right-column2{
+    width: 50%;
+    
+
+}
+#wrapper {
+    margin: 20px auto;
+    width: 1024px;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+.code{
+    font: bold 20px 'Open Sans', sans-serif;
+
+
+
+}
 
 
 
