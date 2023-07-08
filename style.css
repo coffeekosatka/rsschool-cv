@@ -1,0 +1,256 @@
+.h1_style{
+    font: Bold 50px 'Open Sans', sans-serif;
+    color:#191919;
+    margin-top: 2%;
+}
+.h2_style{
+
+    font: Italic 45px 'Open Sans', sans-serif;
+    color: #191919;
+
+}
+.h3_style{
+
+    font: normal 25px 'Open Sans', sans-serif;
+    color: #191919;
+
+}
+.h4_style{
+
+    font: bold 30px/0.5 'Open Sans', sans-serif;
+    color: #191919;
+
+}
+.h5_style{
+
+    font: Italic 27px/0.5 'Open Sans', sans-serif;
+    color: #191919;
+
+}
+.p_style{
+
+    font: bold 24px 'Open Sans', sans-serif;
+    color: #191919;
+
+
+}
+.p_style_{
+
+    font:  bold 23px/0.5 'Open Sans', sans-serif;
+    color: #191919;
+}
+.p_style_2{
+
+    font: bold 22px 'Open Sans', sans-serif;
+    color: #fffaef;
+
+}
+.p_style_3{
+
+    font: italic 22px 'Open Sans', sans-serif;
+    color: #fffaef;
+
+}
+.p_style_4{
+
+    font: 21px 'Open Sans', sans-serif;
+    color: #fffaef;
+
+}
+
+ .two-columns {
+    display: flex;
+    margin: 1px;
+
+  }
+  .left-column {
+    width: 35%;
+    margin-left: 3%;
+    background-color: #323232;
+    
+    
+
+
+
+  }
+  .right-column {
+    width: 65%;
+    margin-left: 5%;
+    margin-right: 3%;
+
+
+  }
+aside{
+
+    margin-left: 8%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    align-items: center;
+}
+body{
+    margin: 1%;
+
+
+}
+.left-nav{
+    font: bold 43px 'Open Sans', sans-serif;
+    color: #191919;
+    background-color: #ebebeb;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.contacts{
+    font: italic 23px 'Open Sans', sans-serif;
+    color: #fffaef;
+    padding-left: 3%;
+    list-style-type: none;
+}
+#li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+.languages{
+    font: bold 20px 'Open Sans', sans-serif;
+    color: #fffaef;
+    padding-left: 5%;
+   
+}
+.education{
+    font: bold 20px 'Open Sans', sans-serif;
+    color: #fffaef;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.right-nav{
+    font: bold 43px 'Open Sans', sans-serif;
+    color: #ebebeb;
+    background-color: #191919;
+    text-align: center;
+   
+
+}
+.left-column2{
+    width: 50%;
+    margin-left: 10%;
+    
+
+}
+.right-column2{
+    width: 50%;
+    
+
+}
+#wrapper {
+    margin: 5px auto;
+    width: 1920px;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    
+}
+.code{
+    font: bold 25px 'Open Sans', sans-serif;
+}
+footer{
+    display: flex;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #ebebeb ;
+    color: #323232;
+    font: bold 20px 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0%;
+    padding-left: 4%;
+    padding-right: 3%;
+
+
+}
+
+.github{
+    display: flex;
+    
+    
+}
+.Icon_git{
+    margin-top: 7%;
+    margin-right: 6%;
+}
+.text_git{
+    display: inline;
+
+}
+
+.icon{
+    display: flex;
+    align-items: center;    
+}
+#icon2{
+
+    margin: 3%;
+}
+#icon3{
+
+    margin: 3%;
+}
+#icon4{
+
+    margin: 3%;
+}
+.project{
+    align-items: center;
+
+}
+.coffeeimg{
+    margin: 0% 5% 5% 10%;
+
+}
+.gameimg{
+    margin: 0% 5% 5% 10%;
+    
+}
+.navigation{
+    display: flex;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #ebebeb ;
+    color: #323232;
+    font: bold 23px 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-decoration: none;
+
+}
+.a{
+    
+    color: #323232;
+    text-decoration: none;
+    
+}
+.a2{
+    
+    color: #fffaef;
+}
+.navigation2{
+    display: inline;
+    list-style-type: none;
+    padding: 70px;
+    
+    
+
+}
+.navigation3{
+    
+margin: 0;
+padding: 0;
+
+
+}
+
+
+
