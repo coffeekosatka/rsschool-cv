@@ -68,6 +68,7 @@
     margin-left: 3%;
     background-color: #323232;
     
+    
 
 
 
@@ -114,6 +115,7 @@ body{
     font: bold 20px 'Open Sans', sans-serif;
     color: #fffaef;
     padding-left: 5%;
+   
 }
 .education{
     font: bold 20px 'Open Sans', sans-serif;
@@ -126,6 +128,7 @@ body{
     color: #ebebeb;
     background-color: #191919;
     text-align: center;
+   
 
 }
 .left-column2{
@@ -143,6 +146,7 @@ body{
     margin: 5px auto;
     width: 1920px;
     box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+    
 }
 .code{
     font: bold 25px 'Open Sans', sans-serif;
@@ -218,5 +222,6 @@ footer{
     
     color: #fffaef;
 }
+
 
 
