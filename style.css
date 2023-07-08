@@ -23,31 +23,37 @@
 }
 .h5_style{
 
-    font: Italic 27px/1.0 'Open Sans', sans-serif;
+    font: Italic 27px/0.5 'Open Sans', sans-serif;
     color: #191919;
 
 }
 .p_style{
 
-    font: bold 20px 'Open Sans', sans-serif;
+    font: bold 21px 'Open Sans', sans-serif;
     color: #191919;
 
+
+}
+.p_style_{
+
+    font:  bold 22px/0.5 'Open Sans', sans-serif;
+    color: #191919;
 }
 .p_style_2{
 
-    font: bold 20px 'Open Sans', sans-serif;
+    font: bold 22px 'Open Sans', sans-serif;
     color: #fffaef;
 
 }
 .p_style_3{
 
-    font: italic bold 20px 'Open Sans', sans-serif;
+    font: italic 22px 'Open Sans', sans-serif;
     color: #fffaef;
 
 }
 .p_style_4{
 
-    font: 20px 'Open Sans', sans-serif;
+    font: 21px 'Open Sans', sans-serif;
     color: #fffaef;
 
 }
@@ -73,7 +79,7 @@
 
 
   }
-article{
+aside{
 
     margin-left: 8%;
     margin-top: 7%;
@@ -98,17 +104,22 @@ body{
     font: italic 20px 'Open Sans', sans-serif;
     color: #fffaef;
     padding-left: 3%;
-
+    list-style-type: none;
 }
+#li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
 .languages{
     font: bold 20px 'Open Sans', sans-serif;
     color: #fffaef;
-    padding-left: 3%;
+    padding-left: 5%;
 }
 .education{
     font: bold 20px 'Open Sans', sans-serif;
     color: #fffaef;
     padding-left: 3%;
+    padding-right: 3%;
 }
 .right-nav{
     font: bold 43px 'Open Sans', sans-serif;
@@ -138,19 +149,20 @@ body{
 }
 footer{
     display: flex;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 0%;
+    margin-right: 0%;
     background-color: #ebebeb ;
     color: #323232;
-    font: bold 24px 'Open Sans', sans-serif;
+    font: bold 20px 'Open Sans', sans-serif;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
 
 
 }
+
 .github{
     display: flex;
 }
@@ -161,6 +173,50 @@ footer{
 #icon2{
 
     margin: 3%;
+}
+#icon3{
+
+    margin: 3%;
+}
+#icon4{
+
+    margin: 3%;
+}
+.project{
+    align-items: center;
+
+}
+.coffeeimg{
+    margin: 0% 5% 5% 10%;
+
+}
+.gameimg{
+    margin: 0% 5% 5% 10%;
+    
+}
+.navigation{
+    display: flex;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: #ebebeb ;
+    color: #323232;
+    font: bold 20px 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.a{
+    
+    color: #323232;
+}
+.a2{
+    
+    color: #fffaef;
 }
 
 

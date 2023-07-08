@@ -16,18 +16,30 @@
 
 <body>
     <div id="wrapper">
+        <nav class="navigation">
+            <a class="a" href="#edu">EDUCATION</a>
+            <a class="a" href="#con">CONTACT</a>
+            <a class="a" href="#lan">LANGUAGES</a>
+            <a class="a" href="#exp">EXPERIENCE</a>
+            <a class="a" href="#ski">SKILLS</a>
+            <a class="a" href="#pro">PROJECTS</a>
+            <a class="a" href="#cod">CODE</a>
+        
+        
+        
+        </nav>
     
         <div class="two-columns">
             <div class="left-column"> 
 
 
-    <article>
-        <img src="img/Foto.jpg" alt="My Foto" width="80%" height="80%">
-    </article>
-    <nav class="left-nav">
+    <aside>
+        <img src="img/Foto.png" alt="My Foto" width="500" height="500">
+    </aside>
+    <nav id="edu" class="left-nav">
         EDUCATION
     </nav>
-    <section class="education">
+    <div class="education">
         <ul>
             <li>
             <p class="p_style_2">Belarussian State University</p>
@@ -44,15 +56,15 @@
             <p class="p_style_3">Frontend Developer</p>
             <p class="p_style_4">Completed in 2024</p>
             </li>
-        </ul> 
-</section>
+        </ul>
+</div>
 
-<nav class="left-nav">
+<nav id="con" class="left-nav">
     CONTACT
 </nav>
 
-<section class="contacts">
-    <ul>
+<div class="contacts">
+    <ul id="li">
         <li>
             <div class="icon">
                 <img id="icon2" src="img/Icon_Mail.png" alt="Mail" width="46" height="46">
@@ -61,36 +73,40 @@
         </li>
         <li>
             <div class="icon">
-                <img id="icon2" src="img/Icon_Tg.png" alt="Telegram" width="46" height="46">
-                @hatake_kenpachi
+                <img id="icon3" src="img/Icon_Tg.png" alt="Telegram" width="46" height="46">
+                <a class="a2" href="https://t.me/hatake_kenpachi">@hatake_kenpachi</a> 
             </div>
         </li>
         <li>
             <div class="icon">
-                <img id="icon2" src="img/Icon_Geo.png" alt="Geolocation" width="46" height="56">
+                <img id="icon4" src="img/Icon_Geo.png" alt="Geolocation" width="46" height="60">
                 Georgia, Borjomi
             </div>
         </li>
     </ul>
-</section>
+</div>
 
-<nav class="left-nav">
+<nav id="lan" class="left-nav">
     LANGUAGES
 </nav>
 
-<section class="languages">
+<div class="languages">
+    
     <ul>
-        <li><p>ENGLISH</p></li>
+        <li><p>ENGLISH</p>
         <p class="contacts">B2</p>
-        <li><p>RUSSIAN</p></li>
+    </li>
+        <li><p>RUSSIAN</p>
         <p class="contacts">Native</p>
-        <li><p>JAPANESE</p></li>
+    </li>
+        <li><p>JAPANESE</p>
         <p class="contacts">N5</p>
+    </li>
         
     </ul>
 
             </div>
-
+        </div>
 
 
 
@@ -111,7 +127,7 @@
             and maintainable code.</h3>
 </header>
 
-<nav class="right-nav">
+<nav id="exp" class="right-nav">
     PROFESSIONAL EXPERIENCE
 </nav>
 
@@ -120,8 +136,7 @@
     <p class="h4_style">Financial Data Specialist/Team Leader
     </p>
     <p class="h5_style">2017 – 2022</p>
-    <p class="p_style">
-        Key responsibilities:
+    <p class="p_style_">Key responsibilities:</p> 
         <ul>
             <li class="p_style">Analyze current and past financial data.</li>
             <li  class="p_style">Planning & financial analytical review.</li>
@@ -129,20 +144,20 @@
             <li class="p_style">Leading teams of between 10 and 15 members.</li>
             <li class="p_style">Resource management: development coaching for junior employees and task distribution within junior staff.</li>
             <li class="p_style">Financial procedures checking.</li>
+
         </ul> 
-    </p>
+
 </main>
 
 
-<nav class="right-nav">
+<nav id="ski" class="right-nav">
     TOP SKILLS
 </nav>
 
-<section>
+<div>
     <div class="two-columns">
     <div class="left-column2">
     <h4 class="h4_style">Hard Skills</h4>
-        <p class="p_style">
             <ul>
                 <li class="p_style">JavaScript</li>
                 <li  class="p_style">Node.JS</li>
@@ -152,11 +167,10 @@
                 <li class="p_style">HTML</li>
                 <li class="p_style">CSS</li>
             </ul> 
-        </p>
     </div>
     <div class="right-column2">
     <h4 class="h4_style">Soft Skills</h4>
-        <p class="p_style">
+
             <ul>
                 <li class="p_style">Communication</li>
                 <li  class="p_style">Problem-solving</li>
@@ -165,32 +179,63 @@
                 <li class="p_style">Time management</li>
                 <li class="p_style">Continuous learning</li>
             </ul> 
-        </p>
+        
     </div>
 </div>
 
+</div>
 
-</section>
+<nav id="pro" class="right-nav">
+    MY PROJECTS
+</nav>
 
-<nav class="right-nav">
+<div class="project">
+    <div class="two-columns">
+
+    <div class="left-column2">
+    <a href="https://github.com/coffeekosatka/FirstProject">
+        <h4 class="h4_style">Coffee Project</h4>
+    </a>
+    <img class="coffeeimg" src="img/Coffee.png" alt="Coffee Project" width="70" height="70">
+
+    </div>
+    
+    <div class="right-column2">
+    <a href="https://github.com/coffeekosatka/SecondProject">
+        <h4 class="h4_style">Game Project</h4>
+</a>
+<img class="gameimg" src="img/Game.png" alt="Game Project" width="80" height="70">
+
+
+    </div>
+</div>
+</div>
+
+
+<nav id="cod" class="right-nav">
     CODE EXAMPLE
 </nav>
-<section class="code">
+<div class="code">
     <pre>
+        <code>
         public static int min(int[] ints) {
             int min = ints[0];
     
-            for(int i = 1; i < ints.length; ++i) {
+            for(int i = 1; i &lsaquo; ints.length; ++i) {
                 min = Math.min(min, ints[i]);
             }
     
             return min;
-        }    
+        }
+    </code>    
     </pre>
-</section>
+</div>
+
+
 
 
 </div>
+
 </div>
 <footer>
     <a class="github" href="https://github.com/coffeekosatka">
@@ -202,6 +247,7 @@
       <img src="img/Icon_rs_school.svg" alt="Rsschool Icon" width="100" height="100">
     </a>
   </footer>
+
 </div>    
 </body>
 </html>
