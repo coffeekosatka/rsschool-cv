@@ -29,14 +29,14 @@
 }
 .p_style{
 
-    font: bold 21px 'Open Sans', sans-serif;
+    font: bold 24px 'Open Sans', sans-serif;
     color: #191919;
 
 
 }
 .p_style_{
 
-    font:  bold 22px/0.5 'Open Sans', sans-serif;
+    font:  bold 23px/0.5 'Open Sans', sans-serif;
     color: #191919;
 }
 .p_style_2{
@@ -102,7 +102,7 @@ body{
 
 }
 .contacts{
-    font: italic 20px 'Open Sans', sans-serif;
+    font: italic 23px 'Open Sans', sans-serif;
     color: #fffaef;
     padding-left: 3%;
     list-style-type: none;
@@ -161,15 +161,26 @@ footer{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 4%;
+    padding-right: 3%;
 
 
 }
 
 .github{
     display: flex;
+    
+    
 }
+.Icon_git{
+    margin-top: 7%;
+    margin-right: 6%;
+}
+.text_git{
+    display: inline;
+
+}
+
 .icon{
     display: flex;
     align-items: center;    
@@ -204,7 +215,7 @@ footer{
     margin-right: 0%;
     background-color: #ebebeb ;
     color: #323232;
-    font: bold 20px 'Open Sans', sans-serif;
+    font: bold 23px 'Open Sans', sans-serif;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0%;
@@ -212,15 +223,33 @@ footer{
     padding-right: 3%;
     padding-top: 1%;
     padding-bottom: 1%;
+    text-decoration: none;
 
 }
 .a{
     
     color: #323232;
+    text-decoration: none;
+    
 }
 .a2{
     
     color: #fffaef;
+}
+.navigation2{
+    display: inline;
+    list-style-type: none;
+    padding: 70px;
+    
+    
+
+}
+.navigation3{
+    
+margin: 0;
+padding: 0;
+
+
 }
 
 
