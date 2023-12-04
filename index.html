@@ -120,7 +120,7 @@
     <p class="p_style_">Key responsibilities:</p>
         <ul>
             <li class="p_style">Analyze current and past financial data.</li>
-            <li  class="p_style">Planning & financial analytical review.</li>
+            <li  class="p_style">Planning and financial analytical review.</li>
             <li class="p_style">Prepare reports on the above information and communicate the insights of these reports to the broader business.</li>
             <li class="p_style">Leading teams of between 10 and 15 members.</li>
             <li class="p_style">Resource management: development coaching for junior employees and task distribution within junior staff.</li>
@@ -186,7 +186,15 @@
 <div class="code">
     <pre>
         <code>
-        public static int
+        public static int min(int[] ints) {
+            int min = ints[0];
+
+            for(int i = 1; i &lsaquo; ints.length; ++i) {
+                min = Math.min(min, ints[i]);
+            }
+
+            return min;
+        }
     </code>
     </pre>
 </div>
