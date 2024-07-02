@@ -168,10 +168,10 @@ footer{
 }
 
 .github{
-    display: flex;
-    
-    
+    display: flex;   
 }
+
+
 .Icon_git{
     margin-top: 7%;
     margin-right: 6%;
@@ -248,6 +248,13 @@ footer{
     
 margin: 0;
 padding: 0;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #323232;
 
 
 }

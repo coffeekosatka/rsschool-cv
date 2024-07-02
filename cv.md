@@ -1,4 +1,4 @@
-# **VIKTORIA GERASIMENKO**
+# **VIKTORIA KHUTSISHVILI**
 ### ***Frontend Developer***
 Skilled and detail-oriented Frontend Developer with a strong foundation in frontend development principles and a desire to grow and excel in the field.
 Offering a understanding of modern frontend technologies, along with a willingness to learn and adapt to new technologies.
