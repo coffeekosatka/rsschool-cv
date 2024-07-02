@@ -19,6 +19,7 @@
 
     font: bold 30px/0.5 'Open Sans', sans-serif;
     color: #191919;
+    text-decoration: none;
 
 }
 .h5_style{
@@ -168,7 +169,8 @@ footer{
 }
 
 .github{
-    display: flex;   
+    display: flex;  
+    text-decoration: none; 
 }
 
 
